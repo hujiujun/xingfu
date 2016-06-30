@@ -4,7 +4,7 @@ package com.xf.xingfu.client.model;
  * @author Administrator
  *
  */
-public class landlord {
+public class Landlord {
 
 	private int id;
 	private String name;//名字
