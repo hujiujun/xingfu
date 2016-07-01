@@ -1,28 +1,28 @@
 package com.xf.xingfu.house.service;
 
-import com.xf.xingfu.house.model.Pact;
+import com.xf.xingfu.house.model.House;
 
 /**
- * 实现合同业务逻辑的接口
+ * 实现业务逻辑的接口
  * @author Administrator
  *
  */
-public class PoctServiceImpl implements PactService {
+public class HouseServiceImpl implements HouseService {
 
 	@Override
-	public void addPact(Pact pact) {
+	public void addHous(House house) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void updatePact(Pact pact) {
+	public void updateHous(House house) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void selectPact(Pact pact) {
+	public void selectHous(House house) {
 		// TODO Auto-generated method stub
 		
 	}
