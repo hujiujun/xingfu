@@ -2,7 +2,9 @@ package com.xf.xingfu.account.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+
 import com.xf.xingfu.account.dao.AccountDao;
+import com.xf.xingfu.account.dao.AccountMapper;
 import com.xf.xingfu.account.model.Account;
 
 /**
@@ -13,8 +15,17 @@ import com.xf.xingfu.account.model.Account;
 public class AccountServiceImpl implements AccountService {
     
 	@Autowired
-	private AccountDao accountDao;
+	private AccountMapper accountMapper;
 	
+	
+	public AccountMapper getAccountMapper() {
+		return accountMapper;
+	}
+
+	public void setAccountMapper(AccountMapper accountMapper) {
+		this.accountMapper = accountMapper;
+	}
+
 	@Override
 	public Account login(String name, String password) {
 		// TODO Auto-generated method stub
