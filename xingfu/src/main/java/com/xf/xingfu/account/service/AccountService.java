@@ -11,11 +11,12 @@ public interface AccountService {
 
 	/**
 	 * 
-	 * @param name  账号
+	 * @param name 账号
 	 * @param password 密码
+	 * @param level 等级
 	 * @return
 	 */
-	Account login(String name, String password);
+	Account login(String name, String password,int level);
 	
 	/**
 	 * 编辑账户信息
@@ -38,7 +39,7 @@ public interface AccountService {
 	 * @param account 
 	 *         修改密码
 	 */
-	void updatepwd(Account account);
+	void updatepwd(String password,int id);
 	
 	/**
 	 * 查询账户

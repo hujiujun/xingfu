@@ -19,7 +19,7 @@
 
 	<!-- Dao 数据访问对象 -->
 	<bean id="accountMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="com.xf.xingfu.dao.AccountMapper" />
+		<property name="mapperInterface" value="com.xf.xingfu.account.dao.AccountMapper" />
 		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean>
 
