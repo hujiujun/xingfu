@@ -16,7 +16,7 @@ public class Store {
 	/**
 	 * area 区域
 	 */
-	private Area area;
+	private int area;
 	/**
 	 * urban 城区
 	 */
@@ -24,7 +24,7 @@ public class Store {
 	/**
 	 * buinour 店长
 	 */
-	private Account buinour;
+	private int buinour;
 	/**
 	 * address 地址
 	 */
@@ -53,16 +53,17 @@ public class Store {
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	/**
 	 * @return the area
 	 */
-	public Area getArea() {
+	public int getArea() {
 		return area;
 	}
 	/**
 	 * @param area the area to set
 	 */
-	public void setArea(Area area) {
+	public void setArea(int area) {
 		this.area = area;
 	}
 	/**
@@ -77,16 +78,17 @@ public class Store {
 	public void setUrban(String urban) {
 		this.urban = urban;
 	}
+	
 	/**
 	 * @return the buinour
 	 */
-	public Account getBuinour() {
+	public int getBuinour() {
 		return buinour;
 	}
 	/**
 	 * @param buinour the buinour to set
 	 */
-	public void setBuinour(Account buinour) {
+	public void setBuinour(int buinour) {
 		this.buinour = buinour;
 	}
 	/**

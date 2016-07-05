@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.xf.xingfu.account.dao.AccountMapper;
 import com.xf.xingfu.account.model.Account;
+import com.xf.xingfu.account.model.Store;
 
 /**
  * 实现账号业务逻辑方法接口
@@ -57,6 +58,19 @@ public class AccountServiceImpl implements AccountService {
 	@Override
 	public void selectAccount(Account account) {
 		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addStore(Store store) {
+		System.out.println(store.getName()+" "+
+				store.getArea()+" "+store.getUrban()+" "+ 
+				store.getBuinour()+" "+store.getAddress());
+		accountMapper.addscore(store.getName(),
+				store.getArea(), 
+				store.getUrban(), 
+				store.getBuinour(), 
+				store.getAddress());
 		
 	}
 

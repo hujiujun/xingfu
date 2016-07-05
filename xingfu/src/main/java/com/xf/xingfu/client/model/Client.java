@@ -29,11 +29,8 @@ public class Client {
 	/**
 	 * uit 户型
 	 */
-	private String uit;
-	/**
-	 * floor 楼层
-	 */
-	private int floor;
+	private int uit;
+
 	/**
 	 * price 价格
 	 */
@@ -49,11 +46,11 @@ public class Client {
 	/**
 	 * account 业务员
 	 */
-	private Account account;
+	private int account;
 	/**
 	 * edttime 录入时间
 	 */
-	private Date edttime;
+	private String edttime;
 	/**
 	 * @return the id
 	 */
@@ -102,29 +99,19 @@ public class Client {
 	public void setUrban(String urban) {
 		this.urban = urban;
 	}
+	
+	
 	/**
 	 * @return the uit
 	 */
-	public String getUit() {
+	public int getUit() {
 		return uit;
 	}
 	/**
 	 * @param uit the uit to set
 	 */
-	public void setUit(String uit) {
+	public void setUit(int uit) {
 		this.uit = uit;
-	}
-	/**
-	 * @return the floor
-	 */
-	public int getFloor() {
-		return floor;
-	}
-	/**
-	 * @param floor the floor to set
-	 */
-	public void setFloor(int floor) {
-		this.floor = floor;
 	}
 	/**
 	 * @return the price
@@ -162,30 +149,32 @@ public class Client {
 	public void setState(int state) {
 		this.state = state;
 	}
+
 	/**
 	 * @return the account
 	 */
-	public Account getAccount() {
+	public int getAccount() {
 		return account;
 	}
 	/**
 	 * @param account the account to set
 	 */
-	public void setAccount(Account account) {
+	public void setAccount(int account) {
 		this.account = account;
 	}
 	/**
 	 * @return the edttime
 	 */
-	public Date getEdttime() {
+	public String getEdttime() {
 		return edttime;
 	}
 	/**
 	 * @param edttime the edttime to set
 	 */
-	public void setEdttime(Date edttime) {
+	public void setEdttime(String edttime) {
 		this.edttime = edttime;
 	}
+	
 	
 	
 } 

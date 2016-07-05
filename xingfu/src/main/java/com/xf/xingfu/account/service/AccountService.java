@@ -1,6 +1,7 @@
 package com.xf.xingfu.account.service;
 
 import com.xf.xingfu.account.model.Account;
+import com.xf.xingfu.account.model.Store;
 
 /**
  * 账号业务逻辑方法接口
@@ -47,4 +48,6 @@ public interface AccountService {
 	 *     账号信息
 	 */
 	void selectAccount(Account account);
+	
+	void addStore(Store store);
 }

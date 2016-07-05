@@ -22,10 +22,24 @@
 		<property name="mapperInterface" value="com.xf.xingfu.account.dao.AccountMapper" />
 		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean>
+	<bean id="clientMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.xf.xingfu.client.dao.ClientMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+	<bean id="houseMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.xf.xingfu.house.dao.HouseMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
 
 	<!-- 业务逻辑 -->
 	<bean id="accountService" class="com.xf.xingfu.account.service.AccountServiceImpl">
 		<property name="accountMapper" ref="accountMapper" />
+	</bean>
+	<bean id="clientService" class="com.xf.xingfu.client.service.ClientServiceImpl">
+		<property name="clientMapper" ref="clientMapper" />
+	</bean>
+	<bean id="houseService" class="com.xf.xingfu.house.service.HouseServiceImpl">
+		<property name="houseMapper" ref="houseMapper" />
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">

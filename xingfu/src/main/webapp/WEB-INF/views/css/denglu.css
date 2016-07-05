@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    height:670px;
+    width:100%;
+    background:url("../img/00.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.biaoti{
+    width:400px;
+    position:relative;
+    left: 500px;
+    top: 260px;
+    font-size:28px;
+}
+.biaoti .p{
+    word-spacing:50px;
+}
+
+.zhiwei{
+   position: relative;
+    left:540px;
+    top:280px;
+    filter:alpha(opacity=40);
+}
+.zhanghao{
+    height:50px;
+    position:relative;
+    left: 540px;
+    top:290px;
+
+    filter:alpha(opacity=40);
+}
+.zhanghao .a{
+       height:30px;
+       border-color: gainsboro;
+}
+.mima{
+    position:relative;
+    left: 540px;
+    top:280px;
+    filter:alpha(opacity=40);
+}
+.mima .b{
+    height: 30px;
+    border-color: gainsboro;
+}
+.danxuan{
+    position:relative;
+    left: 540px;
+    top:300px;
+    filter:alpha(opacity=50);
+}
+.tijiao{
+    position:relative;
+    left: 680px;
+    top:280px;;
+}
+.tijiao .t{
+    height:25px;
+    width:80px;
+
+    filter:alpha(opacity=50);
+}

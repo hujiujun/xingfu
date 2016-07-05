@@ -1,0 +1,192 @@
+.quanbu{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.top{
+    height:97px;
+    width:100%;
+    background:#46b8da;
+    float: left;
+
+}
+.top .timetext{
+    width: 60px;
+    position: absolute;
+    left:1200px;
+    top:75px;
+}
+.top .time{
+    width:60px;
+    position: absolute;
+    left:1265px;
+    top: 75px;
+}
+.top .tishi{
+    width: 200px;
+    position: relative;
+    left: 1100px;
+    top:15px;
+    text-decoration: none;
+}
+.tishi.a{
+    color: #101010;
+}
+.biaoti{
+    position: absolute;
+    left: 400px;
+    height:30px;
+    width: 500px;
+    text-align: center;
+}
+.biaoti .c{
+    padding: 0px;
+    font-size:28px;
+}
+
+
+
+.left{
+    margin-top:0px;
+    height:531px;
+    width:350px;
+    background: #f75000;
+    background-color:rgba(0,0,0,.2);
+    box-shadow:3px 1px 3px #444,inset 0 0px 0 #fff;
+    float: left;
+
+}
+.left-gongneng{
+    height:50px;
+    font-size: 20px;
+    margin-top:10px;
+    text-align: center;
+}
+.right{
+    margin-top: 0px;
+    height: 552px;
+    width: 1016px;
+    float: left;
+    position: absolute;
+    top:97px;
+    left:350px;
+}
+.right .a{
+    position: relative;
+    left: 20px;
+    margin: 20px 0 0 10px;
+    height:30px;
+    width:900px;
+}
+.right .b{
+    position: relative;
+    left:40px;
+    top:0px;
+}
+.right .c{
+    position: relative;
+    left:60px;
+    top:0px;
+}
+.right .d{
+    position: relative;
+    left:80px;
+    top:0px;
+}
+.right .e{
+    position: relative;
+    left:100px;
+    top:0px;
+}
+.right .f{
+    position: relative;
+    left:120px;
+    top:0px;
+}
+.right .g{
+    position: relative;
+    left:150px;
+    width:60px;
+}
+
+.right-b{
+    margin-top: 10px;
+    height: 30px;
+    width: 1000px;
+}
+.right-b .d{
+    width: 60px;
+    border-radius:5px;
+    position: relative;
+    left:40px;
+}
+.right-c{
+    height:455px;
+    width: 1000px;
+}
+.right-c-a{
+    height:30px;
+    width:1000px;
+    padding:5px;
+   background: #46b8da;
+}
+.right-c-a ul li{
+    position: relative;
+    left:10px;
+    float: left;
+    width:110px;
+    text-align: center;
+    list-style:none;
+}
+.right-c-b ul li{
+    position: relative;
+    left:15px;
+    float: left;
+    width:110px;
+    text-align: center;
+    list-style:none;
+}
+
+.fenye{
+    position:relative;
+    top:340px;
+    height:42px;
+    width:1000px;
+}
+.fanye-a{
+    margin: 0 auto;
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    left:248px;
+    top:10px;
+}
+.fanye-a ul li {
+    float: left;
+    margin-top:2px;
+    margin-left: 15px;
+    list-style: none;
+    text-align: center;
+}
+.fanye-a ul li a{
+    padding: 5px;
+    text-decoration: none;
+}
+.fanye-a ul li a:hover{background: #f75000;color: #ffffff ;}
+
+.footer{
+    height: 25px;
+    width:100%;
+    position: absolute;
+    top:630px;
+    background:#a7acae;
+    text-align: center;
+}
+
+
+
+
